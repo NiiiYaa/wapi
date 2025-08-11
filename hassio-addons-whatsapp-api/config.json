@@ -1,0 +1,13 @@
+{
+  "name": "WhatsApp API",
+  "version": "1.0.0",
+  "slug": "whatsapp_api",
+  "description": "Unofficial WhatsApp Web API",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "webui": "http://[HOST]:[PORT:3000]",
+  "image": "chrishubert/whatsapp-api:latest"
+}
